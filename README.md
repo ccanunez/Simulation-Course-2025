@@ -4,8 +4,12 @@ These sources discuss **setting up and simulating stable N-body systems**, speci
 
 ## Part 1
 
-First, see the **Setting up Plummer Sphere** python code to know the parameters and initial conditions to achive the distribution expected. Each section has entitle the part of the project and a description of each line code to more familiarity. 
+To begin, please review the **Setting up Plummer Sphere** Python code to familiarize yourself with the parameters and initial conditions necessary to achieve the desired distribution. Each section of the code is clearly labeled with its corresponding project section and provides a detailed description of each line of code, enhancing your understanding of the project’s objectives. 
 
 ## Part 2
 
-Following the previous section
+In the preceding section, we will proceed to utilize the **nbody.py** Python code to execute the simulation. This code generates a dynamic simulation that allows for the visualization of the cluster’s temporal evolution. However, it does not operate autonomously. From Part 1, we will extract the positions and velocities components of the Plummer sphere distribution. Subsequently, we will modify the **nbody.py** file to enable its reading from the saved table.
+
+## Part 3
+
+Text.
