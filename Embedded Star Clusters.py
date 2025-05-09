@@ -29,6 +29,12 @@ rplum = 1.0 #pc
 
 ########################## Third commented line ##########################
 
+'''
+Be aware that there are two sections that needs to be uncommmented
+for the gas Plummer's acceleration. Both has the same information
+but are in different code lines.
+'''
+
 # new gas plummer accel
 rad = np.sqrt(pos[:,0]*pos[:,0]+pos[:,1]*pos[:,1]+pos[:,2]*pos[:,2])
 accterm = G * mplum * fgas / (rplum*rplum*rplum*(1.0+rad*rad/(rplum*rplum))**1.5)
