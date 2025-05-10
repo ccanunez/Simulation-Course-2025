@@ -12,4 +12,4 @@ In the preceding section, we will proceed to utilize the **nbody.py** Python cod
 
 ## Part 3
 
-Text.
+This section explores the impact of gas expulsion on embedded star clusters, focusing on the effects of varying gas fractions and removal timescales. The simulations, using a Plummer sphere model for gas and Lagrangian radii plots, investigate cluster survival outcomes and the parameter space where clusters are destroyed or survive gas expulsion.
