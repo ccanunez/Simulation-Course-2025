@@ -13,3 +13,7 @@ In the preceding section, we will proceed to utilize the **nbody.py** Python cod
 ## Part 3
 
 This section explores the impact of gas expulsion on embedded star clusters, focusing on the effects of varying gas fractions and removal timescales. The simulations, using a Plummer sphere model for gas and Lagrangian radii plots, investigate cluster survival outcomes and the parameter space where clusters are destroyed or survive gas expulsion. See the comments made in **Embedded Star Cluster** to better understanding.
+
+### Additional Comments
+
+Within this repository, you will find a laboratory report named **Lab Report 2 N-Body Sim** that serves as the primary documentation for the project’s context and background. It is imperative to recognize that the laboratory report constitutes the main work, while the repository primarily functions as a support and readability tool. Additionally, the repository contains homework tasks (**Sims_Course_Project_2,_Nbody_Sims,_Star_Clusters_&_Infant_Mortality**) that include the original assignments, their explanations, and solutions presented in the laboratory report. While reading this file is not essential, it is optional and may provide further insights.
