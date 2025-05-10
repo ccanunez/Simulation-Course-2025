@@ -47,7 +47,7 @@ acc[:,2] = acc[:,2] - accterm*pos[:,2]
 ###########################################################################
 '''
 Part 3.4
-Simulating a supernova explosion
+Simulating a supernova explosion - instantaneous lose of gas fraction
 '''
 ###########################################################################
 ###########################################################################
@@ -72,10 +72,20 @@ line code (see Part 3.3) that is INSIDE the simulated loop.
 ###########################################################################
 '''
 Part 3.5
-Simulating a supernova explosion
+Simulating a supernova explosion - gradual lose of gas fraction
 '''
 ###########################################################################
 ###########################################################################
 ###########################################################################
 
+'''
+In the same line code as we add the condition for the gas loose we
+are going to set another dependency for the gas fraction. Thus,
+we will observing a linear decay over time.
+'''
 
+tGone = tEnd / 2
+tSN = tEnd / 2
+
+if t >= tEnd/2:
+	fgas = -( (t-tSN) / tGone) + 1
